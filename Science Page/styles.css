@@ -1,0 +1,101 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+header {
+  background-color: #3498db;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+main {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+}
+
+.scenario-selection {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.scenario-selection h2 {
+  color: #3498db;
+}
+
+.scenario-selection ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.scenario-selection li {
+  margin-bottom: 10px;
+}
+
+.scenario-selection a {
+  color: #333;
+  text-decoration: none;
+}
+
+.scenario-selection a:hover {
+  color: #3498db;
+}
+
+footer {
+  background-color: #333333d8;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+img {
+  height: 400px;
+  width: auto;
+}
+
+/* CSS styles for buttons */
+
+button {
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #2980b9;
+}
+
+/* Additional styles for scenario page */
+.scenario {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.scenario h2 {
+  color: #3498db;
+  margin-bottom: 20px;
+}
+
+img {
+  display: block;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+footer {
+  display: none;
+}
