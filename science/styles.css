@@ -12,6 +12,10 @@ header {
   padding: 20px 0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 main {
   max-width: 800px;
   margin: 20px auto;
@@ -93,9 +97,19 @@ button:hover {
 img {
   display: block;
   margin: 10px;
-  border-radius: 5px;
+  border-radius: 7px;
+  border: 1px solid black;
 }
 
 footer {
   display: none;
+}
+
+.full-page {
+  height: 100vh; /* Set the height of the section to full viewport height */
+}
+
+p,
+h2 {
+  margin: 2rem;
 }

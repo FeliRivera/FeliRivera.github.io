@@ -84,7 +84,7 @@ function playGame() {
 
 function sit() {
   var outcomeText =
-    "You sat down for a long period of time negatevly affecting you body organs";
+    "You sat down for a long period of time negatevly affecting you body organs. Unfortunate Choice!";
   var outcomeImageSrc = "img/img3.webp"; // Replace with the actual path to your image
 
   // Create an <img> element
@@ -124,7 +124,7 @@ function sit() {
 
 function unhealthy() {
   var outcomeText =
-    "You ordered an unhealthy hamburger which resulted in your body having a lack of nutrients and an excess of calories and bodyweight.";
+    "You ordered an unhealthy hamburger which resulted in your body having a lack of nutrients and an excess of calories and bodyweight. Unfortunate Choice!";
   var outcomeImageSrc = "img/img4.webp"; // Replace with the actual path to your image
 
   // Create an <img> element
@@ -164,7 +164,7 @@ function unhealthy() {
 
 function healthy() {
   var outcomeText =
-    "You ordered Sushi Rolls that come with balanced proprtion of proteins and carbohydrates.";
+    "You ordered Sushi Rolls that come with balanced proprtion of proteins and carbohydrates positivly affecting your health. Great choice!";
   var outcomeImageSrc = "img/img5.webp"; // Replace with the actual path to your image
 
   // Create an <img> element
@@ -185,7 +185,7 @@ function healthy() {
   viewEffectsButton.textContent = "View Organ Effects";
   viewEffectsButton.onclick = function () {
     // Navigate to the new HTML page
-    window.location.href = "organ_effects4.html"; // Replace with the actual path to the new HTML page
+    window.location.href = "organ_effects5.html"; // Replace with the actual path to the new HTML page
   };
 
   // Append the text element and image element to the outcome div
