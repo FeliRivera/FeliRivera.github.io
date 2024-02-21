@@ -113,3 +113,14 @@ p,
 h2 {
   margin: 2rem;
 }
+
+a,
+a:hover,
+a:active {
+  color: #3498db;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #3498dbc4;
+}
